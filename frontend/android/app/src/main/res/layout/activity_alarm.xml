@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000000"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/alarmTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feeding Time"
+        android:textSize="28sp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        android:textSize="18sp"
+        android:background="#E53935"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="20dp"/>
+
+    
+
+</LinearLayout>
